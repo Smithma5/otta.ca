@@ -1,0 +1,259 @@
+p{
+	font-family: arial;
+	font-size: 11pt;
+	font-weight: normal;
+	color: black;
+}
+.ww_fb_formTable
+{
+
+	margin-bottom:20px;
+
+}
+
+.ww_fb_formTable td
+{
+	font-family: arial;
+	padding: 15px;
+	font-size: 11pt;
+	color: black;
+	font-weight: bold;
+}
+
+
+.radio_button_label, .checkbox_label
+{
+	font-weight: normal !important;
+}
+
+.ww_fb_formRowOdd
+{
+	background-color:#F0F0F0;
+}
+
+.ww_fb_form_row_section_title, .ww_fb_form_row_section_title td, .ww_fb_form_row_section_title td *
+{
+	background-color:#333333;
+	color:#FFFFFF !important;
+
+}
+
+.ww_fb_form_row_section_title td i
+{
+	font-weight: normal;
+
+}
+
+
+.ww_fb_formLabelColumn
+{
+	color:black;
+	width:40%;
+	padding-right:50px;
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+
+}
+
+.ww_fb_formLabelColumn i
+{
+	color:grey;
+	font-size: 9pt;
+	padding-left:20px;
+	display:inline-block;
+}
+
+.required_marker
+{
+	color:red;
+}
+
+.ww_fb_formRow  input[type=text],  .ww_fb_formRow select, .ww_fb_formRow input[type=password]
+{
+	width:50%;
+	max-width:400px;
+	font-size:11pt;
+	font-family: arial;
+	color: black;
+	padding:5px;
+
+}
+.ww_fb_formRow textarea
+{
+	width:75%;
+	max-width:500px;
+	height:150px;
+	font-size:12pt;
+	padding:5px;
+}
+.ww_fb_formRow .submit_button
+{
+	padding:10px;
+}
+
+.ww_fb_formRow .attachment_status_cell
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.ww_fb_formRow .attachment_status_cell label
+{
+	font-size: 10px;
+	line-height: 1em;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.ww_fb_formRow .attachment_status_cell label.error
+{
+	font-size: 10px;
+	line-height: 1em;
+	font-style: italic;
+	color: red;
+	font-weight: bold;
+}
+
+.ww_fb_formRow .attachment_status_cell label.error a
+{
+	font-size: 10px;
+	line-height: 1em;
+	font-style: italic;
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.ww_fb_formRow .attachment_status_cell label.error a:hover
+{
+	font-size: 10px;
+	line-height: 1em;
+	font-style: italic;
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.ww_fb_formRow .attachment_size_label
+{
+	font-size: 13px;
+	line-height: 1em;
+	white-space: nowrap;
+}
+
+.ww_fb_formRow .attachment_remove_label
+{
+	font-size: 13px;
+	line-height: 1em;
+}
+
+tr.rowSubmitButton td.ww_fb_formRow_mobile, tr.rowSubmitButton td
+{
+	text-align:center;
+	padding:20px;
+}
+
+
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
+.ww_fb_formTable_mobile
+{
+	margin-bottom:0px;
+	width: 100%;
+	padding:10px;
+}
+.ww_fb_formRow_mobile td input[type=text],  .ww_fb_formRow_mobile td select, .ww_fb_formRow_mobile td input[type=password]
+{
+	width:95%;
+	font-size:12pt;
+	padding:5px;
+}
+
+.ww_fb_formRow_mobile td textarea
+{
+	width:95%;
+	height:150px;
+	font-size:12pt;
+	padding:5px;
+}
+
+.ww_fb_formTable_mobile td
+{
+	padding:10px !important;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.ww_fb_formRow_mobile .text_box
+{
+	font-size:15pt;
+}
+
+.ww_fb_formRow_mobile .attachment_mobile_status_cell
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.ww_fb_formRow_mobile .attachment_mobile_status_cell label
+{
+	font-size: 10px;
+	line-height: 1em;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.ww_fb_formRow_mobile .attachment_mobile_status_cell label.error
+{
+	font-size: 10px;
+	line-height: 1em;
+	font-style: italic;
+	color: red;
+	font-weight: bold;
+}
+
+.ww_fb_formRow_mobile .attachment_mobile_status_cell label.error a
+{
+	font-size: 10px;
+	line-height: 1em;
+	font-style: italic;
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.ww_fb_formRow_mobile .attachment_mobile_status_cell label.error a:hover
+{
+	font-size: 10px;
+	line-height: 1em;
+	font-style: italic;
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.ww_fb_formRow_mobile .attachment_mobile_size_label
+{
+	font-size: 13px;
+	line-height: 1em;
+	white-space: nowrap;
+}
+
+.ww_fb_formRow_mobile .attachment_mobile_remove_label
+{
+	font-size: 13px;
+	line-height: 1em;
+}
+
+.ww_fb_formRow_mobile .attachment_mobile_upload_restrictions_warning
+{
+	font-size: 10px;
+	line-height: 1em;
+	font-style: normal;
+	color: gray;
+	font-weight: normal;
+}
+/* /MOBILE */
+/* /MOBILE */
+/* /MOBILE */
